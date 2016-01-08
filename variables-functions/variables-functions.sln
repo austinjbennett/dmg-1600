@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variables-functions", "variables-functions\variables-functions.csproj", "{5D78F6A4-4816-40A2-9F07-E75859A0A186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D78F6A4-4816-40A2-9F07-E75859A0A186}.Debug|x86.ActiveCfg = Debug|x86
+		{5D78F6A4-4816-40A2-9F07-E75859A0A186}.Debug|x86.Build.0 = Debug|x86
+		{5D78F6A4-4816-40A2-9F07-E75859A0A186}.Release|x86.ActiveCfg = Release|x86
+		{5D78F6A4-4816-40A2-9F07-E75859A0A186}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
