@@ -7,8 +7,16 @@ public class variablesFunctions : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log(myInt * 2);
+		int newInt = multiplyByTwo(myInt);
+		Debug.Log (newInt);
 	}
+
+	int multiplyByTwo(int number){
+		int newNum;
+		newNum = number * 2;
+		return newNum;
+	}
+
 	
 	// Update is called once per frame
 	void Update () {
