@@ -3,20 +3,20 @@ using System.Collections;
 
 public class variablesFunctions : MonoBehaviour {
 
-	int myInt = 5;
+	int number = 10;
 
 	// Use this for initialization
 	void Start () {
-		int newInt = multiplyByTwo(myInt);
-		Debug.Log (newInt);
+		int doubleNumber = multiplyByTwo (number);
+		Debug.Log (number);
+		Debug.Log (doubleNumber);
 	}
 
-	int multiplyByTwo(int number){
-		int newNum;
-		newNum = number * 2;
-		return newNum;
+	int multiplyByTwo(int anotherNumber){
+		int double;
+		double = anotherNumber * 2;
+		return  double;
 	}
-
 	
 	// Update is called once per frame
 	void Update () {
