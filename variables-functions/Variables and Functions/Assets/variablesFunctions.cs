@@ -13,9 +13,9 @@ public class variablesFunctions : MonoBehaviour {
 	}
 
 	int multiplyByTwo(int anotherNumber){
-		int double;
-		double = anotherNumber * 2;
-		return  double;
+		int _double;
+		_double = anotherNumber * 2;
+		return  _double;
 	}
 	
 	// Update is called once per frame
