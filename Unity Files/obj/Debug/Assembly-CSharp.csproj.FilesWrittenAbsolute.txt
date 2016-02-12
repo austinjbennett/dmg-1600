@@ -1,0 +1,13 @@
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/UnityEngine.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/UnityEditor.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Mono.Cecil.Mdb.dll
