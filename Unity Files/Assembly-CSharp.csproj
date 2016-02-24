@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\ifStatements.cs" />
      <Compile Include="Assets\loops.cs" />
+     <Compile Include="Assets\scope2.cs" />
+     <Compile Include="Assets\scopeAndAccessModifiers.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

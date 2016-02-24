@@ -11,3 +11,7 @@
 /Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Austin/Sites/dmg-1600/Unity Files/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/obj/Debug/Assembly-CSharp.dll
+/Users/Austin/Sites/dmg-1600/Unity Files/obj/Debug/Assembly-CSharp.dll.mdb
