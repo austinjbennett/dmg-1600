@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{873D21CF-22CA-4C20-01E9-A4E75FC60F22}") = "Enums and Switches", "Assembly-CSharp.csproj", "{2197F4D7-0A4B-16C5-1667-7E31853958FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2197F4D7-0A4B-16C5-1667-7E31853958FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2197F4D7-0A4B-16C5-1667-7E31853958FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2197F4D7-0A4B-16C5-1667-7E31853958FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2197F4D7-0A4B-16C5-1667-7E31853958FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
