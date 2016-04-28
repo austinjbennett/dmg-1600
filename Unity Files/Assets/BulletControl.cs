@@ -3,38 +3,19 @@ using System.Collections;
 
 public class BulletControl : MonoBehaviour
 {
-    /*
-     * Variables:
-     * A private Rigidbody to hold the reference to the Rigidbody component
-     * A public float for bullet speed
-     * A private int for weak damage
-     * A private int for strong damage
-     * A private int for super strong damage
-     */
 	Rigidbody rigidbody;
 	public float bulletSpeed;
 	int weakDamage;
 	int strongDamage;
 	int superStrongDamage;
 
-    /*
-     * The Start function, void return type, no parameters
-     *      Use GetComponent to get the rigidbody reference
-     *      Assign a value to the weak damage variable 
-     *      Assign a value to the strong damage variable 
-     *      Assign a value to the super strong damage variable 
-     */
 	void Start() {
 		rigidbody = GetComponent<Rigidbody> ();
-		weakDamage = 10;
-		strongDamage = 25;
-		superStrongDamage = 40;
+		weakDamage = 100;
+		strongDamage = 50;
+		superStrongDamage = 34;
 	}
 
-    /*
-     * The Update function, void return type, no parameters
-     *      Using the Rigidbody variable call AddForce and pass the forward direction times the speed as parameters
-     */
 	void Update() {
 		rigidbody.AddForce (transform.forward * bulletSpeed);
 	}
@@ -55,9 +36,9 @@ public class BulletControl : MonoBehaviour
      */
 	void OnTriggerEnter(Collider collider) {
 		if(collider.tag == "Enemy") {
-			EnemyDamage enemydamage = GetComponent<EnemyDamage>();
+			EnemyDamage enemydamage = collider.GetComponent<EnemyDamage>();
 
-  			switch (enemydamage.enemytype) {
+			switch (enemydamage.enemytype) {
 			case EnemyDamage.EnemyType.weak:
 				enemydamage.Damage (weakDamage);
 				break;

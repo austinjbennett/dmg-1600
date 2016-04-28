@@ -8,23 +8,12 @@ public class EnemyDamage : MonoBehaviour
 	public EnemyType enemytype;
 	public int enemyhealth;
 
-    /*
-     * The OnCollisionEnter function, void return type, parameters: Collision
-     *      If (the tag of the Collision parameter equals the KillZone tag)
-     *          Destroy this GameObject
-     */
 	void onCollisionEnter(Collision hit) {
 		if ( hit.transform.tag == "killZone" ) {
 			Destroy (gameObject);
 		}
 	}
 
-	/*
-    * A damage function, void return type, parameters: an int for damage amount
-    *       Have the health "subtract equals" the parameter that was passed in.
-    *       if(the health variable is less than 0)
-    *           Destroy this enemy
-    */
 	public void Damage(int damageamount) {
 		enemyhealth -= damageamount;
 		if(enemyhealth <= 0) {

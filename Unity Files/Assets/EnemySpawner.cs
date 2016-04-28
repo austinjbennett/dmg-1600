@@ -16,7 +16,7 @@ public class EnemySpawner : MonoBehaviour {
      *      Use InvokeRepeating to repeatedly call the spawn function. Put the name of the spawn function, 0, and the delay variable as parameters
      */
 	void Start () {
-		delay = 3;
+		delay = 20;
 		InvokeRepeating("spawnEnemies", 0, delay);
 	}
 
