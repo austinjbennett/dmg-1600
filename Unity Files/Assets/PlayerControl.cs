@@ -7,10 +7,15 @@ public class PlayerControl : MonoBehaviour {
      * A public float for rotation speed
      * A public float for movement speed
      * A private Rigidbody to hold the reference to the Rigidbody component
+     *
+	 * Additional Variables:
+   	 * A public GameObject that will hold the reference to the bullet prefab
      */
 	public float rotationSpeed;
 	public float movementSpeed;
 	Rigidbody rigidbody;
+	public GameObject bullet;
+
     /*
      * The Start function, void return type, no parameters
      *      Use GetComponent to get the rigidbody reference
@@ -28,13 +33,21 @@ public class PlayerControl : MonoBehaviour {
      *       Else if ( upArrow is pressed )
      *           then use AddRelativeForce to move forward
      */
+	/*
+	* Additional Lines in the Update Function:
+	*      If (the space bar is pressed down *see below for instructions*)
+	*          Instantiate using the bullet prefab, this object's transform, and this object's rotation
+	*/
+
 	void Update() {
-		if (Input.GetKey(KeyCode.LeftArrow)) {
-			transform.Rotate(new Vector3(0, -rotationSpeed, 0));
-		} else if (Input.GetKey(KeyCode.RightArrow)) {
-			transform.Rotate(new Vector3(0, rotationSpeed, 0));
-		} else if (Input.GetKey(KeyCode.UpArrow)) {
-			rigidbody.AddRelativeForce(0, 0, movementSpeed);
+		if (Input.GetKey (KeyCode.LeftArrow)) {
+			transform.Rotate (new Vector3 (0, -rotationSpeed, 0));
+		} else if (Input.GetKey (KeyCode.RightArrow)) {
+			transform.Rotate (new Vector3 (0, rotationSpeed, 0));
+		} else if (Input.GetKey (KeyCode.UpArrow)) {
+			rigidbody.AddRelativeForce (0, 0, movementSpeed);
+		} else if (Input.GetKeyDown (KeyCode.Space)) {
+			Instantiate (bullet, transform.position, transform.rotation);
 		}
 	}
 
